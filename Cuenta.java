@@ -10,6 +10,11 @@ public class Cuenta
 	public Cuenta()
 	{
 		
+		cuenta();
+	}
+
+
+	private void cuenta() {
 		numCuenta=0;
 		cliente= new Cliente();
 		Saldo=0;
@@ -20,7 +25,8 @@ public class Cuenta
 		
 		this.numCuenta = numCuenta;
 		this.cliente = cliente;
-		this.Saldo = saldo;
+		int saldo2 = saldo;
+		this.Saldo = saldo2;
 	}
 
 

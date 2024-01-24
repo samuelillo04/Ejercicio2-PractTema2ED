@@ -15,9 +15,9 @@ public class Cliente
 	}
 	
 
-	public Cliente(String dni, String nombre, String direccion) {
+	public Cliente(String dniRefactorizado, String nombre, String direccion) {
 		
-		this.dni = dni;
+		this.dni = dniRefactorizado;
 		this.nombre = nombre;
 		this.direccion = direccion;
 	}
