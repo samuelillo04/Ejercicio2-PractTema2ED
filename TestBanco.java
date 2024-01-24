@@ -1,6 +1,17 @@
 package es.studium.practicatema2;
 public class TestBanco 
+/**
+ * Representa la clase TestBanco.
+ * @author Samuel Infante Cruz.
+ * 
+ */
 {
+	/**
+	 * Representa la creación de un nuevo cliente, esto se produce ya que se va a dar de alta dos nuevos clientes, Antonio y Beatriz.
+	 * Tambien crearemos dos nuevas cuentas.
+	 * 
+	 * @param args
+	 */
 public static void main(String[] args) 
 {
 	/* Antonio y Beatriz se hacen clientes del banco */ 
